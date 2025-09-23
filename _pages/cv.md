@@ -62,7 +62,7 @@ Martin J. Conyon is Professor of Economics and Trustee Professor at Bentley Univ
 
 ## Research Impact
 - **Stanford University Rankings (2024)**: Listed among the world's top 2% of scientists based on standardized citation metrics
-- **Google Scholar (2025)**: Total citations: 14,840; h-index: 50; i10-index: 89
+- **Google Scholar (2025)**: Total citations: 14,969; h-index: 51; i10-index: 90
 - **Research.com (2025)**: 
   - Business and Management: Global Rank 658; U.S. Rank 287
   - Economics and Finance: Global Rank 913; U.S. Rank 553
