@@ -24,6 +24,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   name             : "Martin J. Conyon"
+  avatar           : "profile.png"
   bio              : "Trustee Professor of Economics, Bentley University"
   location         : "Waltham, Massachusetts"
   employer         : "Bentley University"
