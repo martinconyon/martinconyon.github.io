@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Martin J. Conyon"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Martin J. Conyon"
 description              : &description "Professor of Economics, Bentley University | Senior Fellow, Wharton School"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://martinconyon.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -27,7 +27,7 @@ author:
   bio              : "Trustee Professor of Economics, Bentley University"
   location         : "Waltham, Massachusetts"
   employer         : "Bentley University"
-  email            : "your.email@bentley.edu"  # ← Replace with actual email 
+  email            : "mconyon@bentley.edu"  # ← Replace with actual email 
 
   # Academic websites
   academia         : # URL
