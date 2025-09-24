@@ -14,7 +14,7 @@ redirect_from:
 Corporate governance, executive compensation, political economy of firms.
 
 ## Contact
-- Email: [your.email@bentley.edu](mailto:your.email@bentley.edu)
+- Email: [your.email@bentley.edu](mailto:mconyon@bentley.edu)
 - [Google Scholar](https://scholar.google.com/citations?user=nVRG_-wAAAAJ)
 - [Download CV](/files/cv.pdf)
 
