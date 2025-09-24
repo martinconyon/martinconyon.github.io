@@ -19,4 +19,4 @@ His work is widely cited; his current Google Scholar h-index is 51, and he has b
 ## Contact
 - Email: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)
 - [Google Scholar](https://scholar.google.com/citations?user=nVRG_-wAAAAJ)
-- [SSRB Author Page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6221597)
+- [SSRN Author Page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6221597)
