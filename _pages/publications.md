@@ -200,7 +200,7 @@ author_profile: true
 
 * {: .publication-item} **Conyon, M. J., & Machin, S.** (1991). "The determination of profit margins in UK manufacturing." <em>Journal of Industrial Economics</em>, 39(4), 369-382. [DOI](https://doi.org/10.2307/2098437)
 
-## Books
+## Book Chapters
 
 * {: .publication-item} **Conyon, M. J., & He, L.** (2016). "CEO Compensation in US Financial Institutions." In C. Mallin (Ed.), <em>Handbook on Corporate Governance in Financial Institutions</em> (pp. 87–121). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781784711795.00011)
 
