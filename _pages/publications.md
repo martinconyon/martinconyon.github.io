@@ -13,7 +13,7 @@ author_profile: true
     counter-increment: publication-counter;
     margin-bottom: 1.5rem;
     line-height: 1.4;
-    display: flow-root;
+    overflow: auto; /* FIX: Better clearfix */
 }
 .publication-item::before {
     content: "[" counter(publication-counter) "]";
@@ -26,12 +26,12 @@ author_profile: true
     margin-bottom: 1rem;
     border-bottom: 2px solid #ccc;
     padding-bottom: 0.5rem;
-    clear: both;
+    clear: both; /* FIX: Force section headers to clear floats */
 }
 </style>
 
 <div class="publication-container">
-
+    
 ## Publications
 
 * {: .publication-item} **Conyon, Martin J., Juyeong Jeong, and Steen Thomsen** (2025). "CEO Earnings: Evidence from Danish Twins." <em>Economics Letters</em>, 256 (October), 112562. [DOI](https://doi.org/10.1016/j.econlet.2025.112562)
@@ -143,8 +143,6 @@ author_profile: true
 * {: .publication-item} **Conyon, M. J., & Sadler, G. V.** (2001). "Executive pay, tournaments and corporate performance in UK firms." <em>International Journal of Management Reviews</em>, 3(2), 141-168. [DOI](https://doi.org/10.1111/1468-2370.00060)
 
 * {: .publication-item} **Conyon, M. J., Peck, S. I., & Read, L. E.** (2001). "Performance pay and corporate structure in UK firms." <em>European Management Journal</em>, 19(1), 73-82. [DOI](https://doi.org/10.1016/S0263-2373(00)00072-4)
-
-* {: .publication-item} **Conyon, M. J., & Sadler, G. V.** (2001). "CEO compensation, option incentives, and information disclosure." <em>Review of Financial Economics</em>, 10(3), 251-277.
 
 * {: .publication-item} **Conyon, M. J., & Sadler, G. V.** (2001). "CEO compensation, option incentives, and information disclosure." <em>Review of Financial Economics</em>, 10(3), 251-277. [DOI](https://doi.org/10.1016/S1058-3300(01)00033-7)
 
