@@ -15,13 +15,20 @@ author_profile: true
     counter-increment: publication-counter;
     margin-bottom: 1.5rem;
     line-height: 1.4;
-    display: flow-root;
+    display: flow-root; /* Add this - it's the modern clearfix */
 }
 .publication-item::before {
     content: "[" counter(publication-counter) "]";
     font-weight: bold;
     margin-right: 0.5rem;
     float: left;
+}
+.publication-section {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    clear: both; /* Add this to ensure sections clear the floats */
 }
 </style>
 
