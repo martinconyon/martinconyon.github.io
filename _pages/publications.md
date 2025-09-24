@@ -34,7 +34,6 @@ author_profile: true
 
 ## Publications
 
-{: .publication-list}
 * {: .publication-item} **Conyon, Martin J., Juyeong Jeong, and Steen Thomsen** (2025). "CEO Earnings: Evidence from Danish Twins." <em>Economics Letters</em>, 256 (October), 112562. [DOI](https://doi.org/10.1016/j.econlet.2025.112562)
 
 * {: .publication-item} **Conyon, Martin J.** (2025). "Burden-Sharing in NATO: Trends and Dispersion in Defense Spending, 1950–2024." <em>Applied Economics Letters</em>, July. [DOI](https://doi.org/10.1080/13504851.2025.2532057)
@@ -278,4 +277,4 @@ author_profile: true
 
 * {: .publication-item} **Conyon, M. J.** (1998). "Non-Executive Directors' Reaction to the Findings of the Hampel Committee." <em>Coopers & Lybrand</em>, Published Report.
 
-</div> <!-- Add this closing div at the very end -->
+</div> 
