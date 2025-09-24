@@ -7,8 +7,6 @@ author_profile: true
 
 ## Publications
 
-### Journal Articles
-
 1. **Conyon, M.J., Juyeong Jeong, and Steen Thomsen** (2025). "CEO Earnings: Evidence from Danish Twins." *Economics Letters*, 256 (October), 112562. [DOI](https://doi.org/10.1016/j.econlet.2025.112562)
 
 2. **Conyon, M.J.** (2025). "Burden-Sharing in NATO: Trends and Dispersion in Defense Spending, 1950–2024." *Applied Economics Letters*, July. [DOI](https://doi.org/10.1080/13504851.2025.2532057)
@@ -145,7 +143,7 @@ author_profile: true
 
 68. **Conyon, M.J., & Machin, S.** (1991). "The determination of profit margins in UK manufacturing." *Journal of Industrial Economics*, 39(4), 369-382. [DOI](https://doi.org/10.2307/2098437)
 
-### Books
+## Books
 
 1. **Conyon, M.J., and Lerong He** (2025). *Research Handbook on Corporate Governance in China*. Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781035312610)
 
@@ -153,7 +151,7 @@ author_profile: true
 
 3. **Thomsen, S., & Conyon, M.J.** (2012). *Corporate Governance: Mechanisms and Systems*. McGraw-Hill. [URL](https://tinyurl.com/jwvnrb54)
 
-### Book Chapters
+## Book Chapters
 
 1. **Conyon, M.J.** (2023). "Executive compensation." In T. Eriksson (Ed.), *Elgar Encyclopedia of Labour Studies* (pp. 47–52). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781800377547.ch12)
 
@@ -197,7 +195,7 @@ author_profile: true
 
 21. **Conyon, M.J.** (1997). "Institutional Arrangements for Setting Directors' Compensation in UK Companies." In K. Keasey, S. Thompson, & M. Wright (Eds.), *Corporate Governance: Economic and Financial Issues* (pp. 103–121). Oxford University Press. [DOI](https://doi.org/10.1093/oso/9780198289906.003.0005)
 
-### Reviews and Reports
+## Reviews and Reports
 
 1. **Conyon, M.J.** (2023). "Women in the Boardroom: The Current Landscape." *Bentley University Report. Gloria Cordes Larson Center for Women and Business (CWB)*.
 
