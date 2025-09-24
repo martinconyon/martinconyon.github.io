@@ -25,7 +25,7 @@ author_profile: true
 }
 </style>
 
-## Publications (Chronological)
+## Publications
 
 {: .publication-list}
 * {: .publication-item} **Conyon, Martin J., Juyeong Jeong, and Steen Thomsen** (2025). "CEO Earnings: Evidence from Danish Twins." <em>Economics Letters</em>, 256 (October), 112562. [DOI](https://doi.org/10.1016/j.econlet.2025.112562)
