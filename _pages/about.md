@@ -12,9 +12,9 @@ redirect_from:
 
 
 ## About
-Martin Conyon is Trustee Professor of Economics at Bentley University and Senior Fellow at the Wharton School, University of Pennsylvania. His research is in political economy and applied econometrics focuses on corporate governance, incentive compensation, and the performance of firms.
+Martin Conyon is Trustee Professor of Economics at Bentley University and a Senior Fellow at the Wharton School, University of Pennsylvania. His research spans political economy and applied econometrics, with work on defense economics, corporate governance, CEO pay, labor and organization.
 
-His work is widely cited, with a Google H-index of 51, and he is ranked among the top 2% of scientists worldwide (Stanford/Ioannidis et al.). He is a Fellow of the Royal Society of Arts.
+His work is widely cited; his current Google Scholar h-index is 51, and he has been listed among the world’s top 2% of scientists in the standardized Stanford/Ioannidis database. He is a Fellow of the Royal Society of Arts.
 
 ## Contact
 - Email: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)
