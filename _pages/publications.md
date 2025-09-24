@@ -207,8 +207,11 @@ author_profile: true
 
 * {: .publication-item} **Conyon, M. J., & Machin, S.** (1991). "The determination of profit margins in UK manufacturing." <em>Journal of Industrial Economics</em>, 39(4), 369-382. [DOI](https://doi.org/10.2307/2098437)
 
+</div> <!-- Add this -->
+
 ## Book Chapters
 
+{: .publication-list} <!-- Add this -->
 * {: .publication-item} **Conyon, M. J., & He, L.** (2016). "CEO Compensation in US Financial Institutions." In C. Mallin (Ed.), <em>Handbook on Corporate Governance in Financial Institutions</em> (pp. 87–121). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781784711795.00011)
 
 * {: .publication-item} **Conyon, M. J., & He, L.** (2013). "Chinese Top Executive Compensation: Where Do We Stand?" In D. Cumming, A. Guariglia, W. Hou, & E. Lee (Eds.), <em>Recent Experience and Challenges in the Chinese Capital Market</em> (pp. 146–175). Palgrave Macmillan. [DOI](https://doi.org/10.1057/9781137341570_7)
@@ -247,7 +250,11 @@ author_profile: true
 
 * {: .publication-item} **Conyon, M. J.** (1997). "Institutional Arrangements for Setting Directors' Compensation in UK Companies." In K. Keasey, S. Thompson, & M. Wright (Eds.), <em>Corporate Governance: Economic and Financial Issues</em> (pp. 103–121). Oxford University Press. [DOI](https://doi.org/10.1093/oso/9780198289906.003.0005)
 
+</div> <!-- Add this -->
+
 ## Reviews and Reports
+
+{: .publication-list} <!-- Add this -->
 
 * {: .publication-item} **Conyon, M. J.** (2023). "Women in the Boardroom: The Current Landscape." <em>Bentley University Report. Gloria Cordes Larson Center for Women and Business (CWB)</em>.
 
