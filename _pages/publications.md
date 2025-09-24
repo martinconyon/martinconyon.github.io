@@ -201,3 +201,71 @@ author_profile: true
 * {: .publication-item} **Conyon, M. J., & Machin, S.** (1991). "The determination of profit margins in UK manufacturing." <em>Journal of Industrial Economics</em>, 39(4), 369-382. [DOI](https://doi.org/10.2307/2098437)
 
 ## Books
+
+* {: .publication-item} **Conyon, M. J., & He, L.** (2016). "CEO Compensation in US Financial Institutions." In C. Mallin (Ed.), <em>Handbook on Corporate Governance in Financial Institutions</em> (pp. 87–121). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781784711795.00011)
+
+* {: .publication-item} **Conyon, M. J., & He, L.** (2013). "Chinese Top Executive Compensation: Where Do We Stand?" In D. Cumming, A. Guariglia, W. Hou, & E. Lee (Eds.), <em>Recent Experience and Challenges in the Chinese Capital Market</em> (pp. 146–175). Palgrave Macmillan. [DOI](https://doi.org/10.1057/9781137341570_7)
+
+* {: .publication-item} **Conyon, M. J., & He, L.** (2012). "Executive Compensation and Pay for Performance in China." In R. S. Thomas & J. G. Hill (Eds.), <em>Research Handbook on Executive Pay</em> (pp. 414–434). Edward Elgar Publishing. (Handbooks in Corporate Law and Governance) [DOI](https://doi.org/10.4337/9781781005101)
+
+* {: .publication-item} **Conyon, M. J.** (2012). "Executive Compensation: Governance and the Financial Crisis." In D. C. Mueller (Ed.), <em>The Oxford Handbook of Capitalism</em> (pp. 371–404). Oxford University Press. [DOI](https://doi.org/10.1093/oxfordhb/9780195391176.013.0014)
+
+* {: .publication-item} **Conyon, M. J., & Peck, S. I.** (2012). "Executive Compensation, Pay for Performance and the Institutions of Executive Pay Setting." In T. Clarke (Ed.), <em>The Sage Handbook of Corporate Governance</em> (pp. 340–357). Sage Publications. [DOI](https://doi.org/10.5465/AMP.2009.37008002)
+
+* {: .publication-item} **Conyon, M. J., & Shipilov, A.** (2012). "Is There an Anglo-Saxon Model? Historical and Social Network Accounts of the Differences in Ownership and Control in the UK, Canada, and the U.S." In B. Kogut (Ed.), <em>The Small Worlds of Corporate Governance</em> (pp. 53–76). MIT Press. [DOI](https://doi.org/10.7551/mitpress/9115.003.0004)
+
+* {: .publication-item} **Conyon, M. J.** (2010). "Compensation Consultants and Executive Pay." In H. K. Baker & R. Anderson (Eds.), <em>Corporate Governance: A Synthesis of Theory, Research, and Practice</em> (pp. 285–302). John Wiley & Sons. [DOI](https://doi.org/10.1002/9781118258439.ch15)
+
+* {: .publication-item} **Conyon, M. J.** (2010). "Compensation Committees and CEO Pay." In C. Mallin (Ed.), <em>Handbook on International Corporate Governance</em> (2nd ed., Chapter 13). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781849808293.00022)
+
+* {: .publication-item} **Conyon, M. J., & Freeman, R. B.** (2006). "Shared Modes of Compensation and Firm Performance: UK Evidence." In R. Blundell, D. Card, & R. B. Freeman (Eds.), <em>Seeking a Premier League Economy</em> (pp. 109–146). University of Chicago Press. [URL](https://www.nber.org/papers/w8448)
+
+* {: .publication-item} **Conyon, M. J., & Freeman, R. B.** (2006). "Firm Benefits from Share-Owning Workers." In J. Pickford (Ed.), <em>Mastering People Management</em> (pp. 203–208). Financial Times Prentice Hall.
+
+* {: .publication-item} **Conyon, M. J.** (2006). "Corporate Governance in Singapore: A Case Analysis." In C. Mallin (Ed.), <em>International Corporate Governance</em> (pp. 187–217). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781845429997)
+
+* {: .publication-item} **Conyon, M. J., & Kuchinskas, D.** (2006). "Compensation Committees in the United States." In C. Mallin (Ed.), <em>Handbook on International Corporate Governance</em>. Edward Elgar Publishing.
+
+* {: .publication-item} **Bonet, R., & Conyon, M. J.** (2005). "Compensation Committees and Executive Compensation: Evidence from Publicly Traded UK Firms." In K. Keasey, S. Thompson, & M. Wright (Eds.), <em>Corporate Governance: Accountability, Enterprise and International Comparisons</em> (pp. 137–154). John Wiley & Sons. [URL](https://api.semanticscholar.org/CorpusID:167698096)
+
+* {: .publication-item} **Conyon, M. J.** (2003). "Perspectives on the Governance of Executive Compensation." In M. Waterson (Ed.), <em>Competition, Monopoly and Corporate Governance: Essays in Honour of Keith Cowling</em> (pp. 228–258). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781781951361)
+
+* {: .publication-item} **Conyon, M. J., Girma, S., Thompson, S., & Wright, P.** (2003). "Multinationals and Labour: Evidence from the International Acquisition of UK Firms." In M. Waterson (Ed.), <em>Competition, Monopoly and Corporate Governance: Essays in Honour of Keith Cowling</em> (pp. 20–41). Edward Elgar Publishing. [DOI](https://doi.org/10.4337/9781781951361)
+
+* {: .publication-item} **Conyon, M. J., & Murphy, K. J.** (2002). "Stock-Based Compensation." In J. A. McCahery, P. Moerland, T. Raaijmakers, & L. Renneboog (Eds.), <em>Corporate Governance Regimes: Convergence and Diversity</em> (pp. 625–646). Oxford University Press. [DOI](https://doi.org/10.2307/4144484)
+
+* {: .publication-item} **Conyon, M. J., & Schwalbach, J.** (1999). "Corporate Governance, Executive Pay, and Performance in Europe." In J. Carpenter & D. Yermack (Eds.), <em>Executive Compensation and Shareholder Value: Theory and Evidence</em> (pp. 13–33). Kluwer Academic Publishers. [URL](https://tinyurl.com/mr3n5y37)
+
+* {: .publication-item} **Conyon, M. J., & Peck, S. I.** (1998). "Recent Developments in UK Corporate Governance." In A. Buxton, P. Chapman, & P. Temple (Eds.), <em>Britain's Economic Performance</em> (pp. 253–277). Routledge. [DOI](https://doi.org/10.4324/9780203980484)
+
+* {: .publication-item} **Conyon, M. J.** (1997). "Institutional Arrangements for Setting Directors' Compensation in UK Companies." In K. Keasey, S. Thompson, & M. Wright (Eds.), <em>Corporate Governance: Economic and Financial Issues</em> (pp. 103–121). Oxford University Press. [DOI](https://doi.org/10.1093/oso/9780198289906.003.0005)
+
+## Reviews and Reports
+
+* {: .publication-item} **Conyon, M. J.** (2023). "Women in the Boardroom: The Current Landscape." <em>Bentley University Report. Gloria Cordes Larson Center for Women and Business (CWB)</em>.
+
+* {: .publication-item} **Conyon, M. J.** (2009). "Review of The Analysis of Firms and Employees by Bender et al." <em>Industrial and Labor Relations Review</em>, July. [DOI](https://doi.org/10.1177/001979390906200)
+
+* {: .publication-item} **Conyon, M. J.** (2009). "Review of Corporate Governance: Principles, Policies and Practices by Bob Tricker." <em>Corporate Governance: An International Review</em>, 17(3), 405–406. [DOI](https://doi.org/10.1111/j.1467-8683.2009.00746.x)
+
+* {: .publication-item} **Conyon, M. J.** (2009). "Review of Boards, Governance and Value Creation: The Human Side of Corporate Governance by Morten Huse." <em>Corporate Governance: An International Review</em>, 16(2), 392–393.
+
+* {: .publication-item} **Conyon, M. J.** (2005). "Review of Personnel Economics by Edward Lazear." <em>British Journal of Industrial Relations</em>, 43(1), 162–165. [DOI](https://doi.org/10.1111/j.1467-8543.2005.00349.x)
+
+* {: .publication-item} **Conyon, M. J.** (2004). "Review of Political Determinants of Corporate Governance by Mark Roe." <em>The Economic Journal</em>.
+
+* {: .publication-item} **Conyon, M. J.** (2003). "Review of Corporate Governance: Theoretical and Empirical Perspectives edited by Xavier Vives." <em>Journal of Economic Literature</em>, 41(2), 600–601.
+
+* {: .publication-item} **Conyon, M. J.** (2003). "Review of Corporate Governance and Economic Performance by Klaus Gugler." <em>Corporate Governance: An International Review</em>, 11(2), 147–148.
+
+* {: .publication-item} **Conyon, M. J., & Freeman, R. B.** (2001). "Firm Benefits from Share-Owning Workers: Employee Ownership Plans Are on the Rise." <em>Financial Times</em>.
+
+* {: .publication-item} **Conyon, M. J.** (2000). "Review of The Economics of Executive Compensation edited by Kevin Hallock and Kevin Murphy." <em>Accounting and Business Research</em>, 30(3), 255–257.
+
+* {: .publication-item} **Conyon, M. J.** (2000). "Avarice: Seven Deadly Sins—A New Look at Society Through an Old Lens." <em>Economic and Social Research Council</em>, 20–24. [URL](https://tinyurl.com/4cus8kt8)
+
+* {: .publication-item} **Conyon, M. J.** (2000). "Directors' Pay in UK PLCs: A Guide to Executive Pay Determination." <em>Chartered Institute of Personnel and Development</em>, Research Policy Document.
+
+* {: .publication-item} **Conyon, M. J., & Mallin, C.** (1998). "Directors' Share Options: Performance Criteria and Disclosure—Compliance with the Greenbury Report." <em>Institute of Chartered Accountants in England and Wales</em>, Research Monograph.
+
+* {: .publication-item} **Conyon, M. J.** (1998). "Non-Executive Directors' Reaction to the Findings of the Hampel Committee." <em>Coopers & Lybrand</em>, Published Report.
