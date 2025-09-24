@@ -139,3 +139,65 @@ author_profile: true
 * {: .publication-item} **Conyon, M. J., Peck, S. I., & Read, L. E.** (2001). "Performance pay and corporate structure in UK firms." <em>European Management Journal</em>, 19(1), 73-82. [DOI](https://doi.org/10.1016/S0263-2373(00)00072-4)
 
 * {: .publication-item} **Conyon, M. J., & Sadler, G. V.** (2001). "CEO compensation, option incentives, and information disclosure." <em>Review of Financial Economics</em>, 10(3), 251-277.
+
+* {: .publication-item} **Conyon, M. J., & Sadler, G. V.** (2001). "CEO compensation, option incentives, and information disclosure." <em>Review of Financial Economics</em>, 10(3), 251-277. [DOI](https://doi.org/10.1016/S1058-3300(01)00033-7)
+
+* {: .publication-item} **Conyon, M. J., & Freeman, R.** (2001). "Shared modes of compensation and firm performance: UK evidence." <em>NBER Working Paper W8448</em>. [URL](https://www.nber.org/papers/w8448)
+
+* {: .publication-item} **Conyon, M. J., & Murphy, K. J.** (2000). "The prince and the pauper? CEO pay in the United States and United Kingdom." <em>Economic Journal</em>, 110(467), F640-F671. [Reprinted in <em>Corporate Governance: An International Perspective</em> edited by D. Denis and J. McConnell, Edward Elgar, 2005] [DOI](https://doi.org/10.1111/1468-0297.00577)
+
+* {: .publication-item} **Conyon, M. J., Peck, S. I., Read, L. E., & Sadler, G. V.** (2000). "The structure of executive compensation contracts: UK evidence." <em>Long Range Planning</em>, 33(4), 478-503. [DOI](https://doi.org/10.1016/S0024-6301(00)00054-6)
+
+* {: .publication-item} **Conyon, M. J., & Schwalbach, J.** (2000). "Executive compensation: Evidence from the UK and Germany." <em>Long Range Planning</em>, 33(4), 504-526. [DOI](https://doi.org/10.1016/S0024-6301(00)00052-2)
+
+* {: .publication-item} **Conyon, M. J., Peck, S. I., & Sadler, G. V.** (2000). "Econometric modelling of UK executive compensation." <em>Managerial Finance</em>, 26(9), 3-20. [JSTOR](https://www.jstor.org/stable/3094387)
+
+* {: .publication-item} **Conyon, M. J., & Schwalbach, J.** (2000). "European differences in executive pay and corporate governance." In H. Albach (Ed.), <em>Corporate Governance</em> (pp. 97–114). Gabler Verlag. [DOI](https://doi.org/10.1007/978-3-663-07710-7_6)
+
+* {: .publication-item} **Conyon, M. J.** (2000). "Discussion of the increasing use of non-executive directors: Its impact on UK board structure and governance arrangements." <em>Journal of Business Finance & Accounting</em>, 27(9-10), 1335-1348. [DOI](https://doi.org/10.1111/1468-5957.00359)
+
+* {: .publication-item} **Conyon, M. J., Whittington, R., Pettigrew, A., Peck, S. I., & Fenton, E.** (1999). "Change and complementarities in the new competitive landscape: A European panel study, 1992–1996." <em>Organization Science</em>, 10(5), 583-600. [JSTOR](https://www.jstor.org/stable/2640319)
+
+* {: .publication-item} **Benito, A., & Conyon, M. J.** (1999). "The governance of directors' pay: Evidence from UK companies." <em>Journal of Management and Governance</em>, 3(2), 117-136. [DOI](https://doi.org/10.1023/A:1009995710541)
+
+* {: .publication-item} **Conyon, M. J., & Peck, S. I.** (1998). "Board control, remuneration committees, and top management compensation." <em>Academy of Management Journal</em>, 41(2), 146-157. [DOI](https://doi.org/10.2307/257099)
+
+* {: .publication-item} **Conyon, M. J.** (1998). "Directors' pay and turnover: An application to a sample of large UK firms." <em>Oxford Bulletin of Economics and Statistics</em>, 60(4), 485-507. [DOI](https://doi.org/10.1111/1468-0084.00110)
+
+* {: .publication-item} **Conyon, M. J., & Nicolitsas, D.** (1998). "Does the market for top executives work? CEO pay and turnover in small UK companies." <em>Small Business Economics</em>, 11(2), 145-154. [JSTOR](https://www.jstor.org/stable/40228969)
+
+* {: .publication-item} **Conyon, M. J., & Peck, S. I.** (1998). "Board size and corporate performance: Evidence from European countries." <em>European Journal of Finance</em>, 4(3), 291-304. [DOI](https://doi.org/10.1080/135184798337317)
+
+* {: .publication-item} **Conyon, M. J., Peck, S. I., & Clarke, R. N.** (1998). "Corporate governance and directors' remuneration: Views from the top." <em>Business Strategy Review</em>, 9(4), 21-30. [DOI](https://doi.org/10.1111/1467-8616.00079)
+
+* {: .publication-item} **Conyon, M. J.** (1997). "Corporate governance and executive compensation." <em>International Journal of Industrial Organization</em>, 15(4), 493-509. [DOI](https://doi.org/10.1016/S0167-7187(96)01032-6)
+
+* {: .publication-item} **Conyon, M. J., & Singh, R.** (1997). "Taking care of business: The politics of executive pay in the United Kingdom." <em>Contemporary British History</em>, 11(1), 1-20. [DOI](https://doi.org/10.1080/13619469708581456)
+
+* {: .publication-item} **Conyon, M. J., & Mallin, C.** (1997). "A review of compliance with Cadbury." <em>Journal of General Management</em>, 22(3), 24-37. [DOI](https://doi.org/10.1177/0306307097022003)
+
+* {: .publication-item} **Conyon, M. J., & Mallin, C.** (1997). "Women in the boardroom." <em>Corporate Governance: An International Review</em>, 5(3), 112-117. [DOI](https://doi.org/10.1111/1467-8683.00051)
+
+* {: .publication-item} **Conyon, M. J., Gregg, P. A., & Machin, S.** (1995). "Taking care of business: Executive compensation in the United Kingdom." <em>Economic Journal</em>, 105(430), 704-714. [Reprinted in <em>The Economics of Executive Compensation</em> edited by K. F. Hallock and K. J. Murphy, Edward Elgar, 1999] [DOI](https://doi.org/10.2307/2235029)
+
+* {: .publication-item} **Conyon, M. J.** (1995). "Labour share, market structure and trade unionism." <em>International Journal of Industrial Organization</em>, 13(1), 117-131. [DOI](https://doi.org/10.1016/0167-7187(94)90031-0)
+
+* {: .publication-item} **Conyon, M. J.** (1995). "Directors' pay in the privatized utilities." <em>British Journal of Industrial Relations</em>, 33(2), 159-171. [DOI](https://doi.org/10.1111/j.1467-8543.1995.tb00429.x)
+
+* {: .publication-item} **Conyon, M. J.** (1995). "Industry profit margins and concentration: Evidence from UK manufacturing." <em>International Review of Applied Economics</em>, 9(3), 275-290. [DOI](https://doi.org/10.1080/758537630)
+
+* {: .publication-item} **Conyon, M. J.** (1995). "Tenure and contracts—the experience of UK CEOs." <em>Personnel Review</em>, 23(6), 25-33. [DOI](https://doi.org/10.1108/00483489410067772)
+
+* {: .publication-item} **Conyon, M. J., & Leech, D.** (1994). "Top pay, company performance and corporate governance." <em>Oxford Bulletin of Economics and Statistics</em>, 56(3), 229-247. [DOI](https://doi.org/10.1111/j.1468-0084.1994.mp56003001.x)
+
+* {: .publication-item} **Conyon, M. J., & Gregg, P. A.** (1994). "Pay at the top: A study of the sensitivity of top director remuneration to company specific shocks." <em>National Institute Economic Review</em>, 149(1), 83-92. [JSTOR](https://www.jstor.org/stable/23870374)
+
+* {: .publication-item} **Conyon, M. J.** (1994). "Corporate governance changes in UK companies between 1988 and 1993." <em>Corporate Governance: An International Review</em>, 2(2), 87-99. [DOI](https://doi.org/10.1111/j.1467-8683.1994.tb00060.x)
+
+* {: .publication-item} **Conyon, M. J.** (1992). "Income distribution, efficient bargaining and market structure." <em>Economics Letters</em>, 40(2), 181-185. [DOI](https://doi.org/10.1016/0165-1765(92)90220-S)
+
+* {: .publication-item} **Conyon, M. J., & Machin, S.** (1991). "Market structure and the empirical specification of profit margins." <em>Economics Letters</em>, 35(2), 227-231. [DOI](https://doi.org/10.1016/0165-1765(91)90174-J)
+
+* {: .publication-item} **Conyon, M. J., & Machin, S.** (1991). "The determination of profit margins in UK manufacturing." <em>Journal of Industrial Economics</em>, 39(4), 369-382. [DOI](https://doi.org/10.2307/2098437)
+
+## Books
