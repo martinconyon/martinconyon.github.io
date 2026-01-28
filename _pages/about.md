@@ -8,7 +8,9 @@ redirect_from:
 ---
 
 **Professor of Economics, Bentley University**
+
 **Otto Mønsted Professor, Copenhagen Business School**
+
 **Senior Fellow, Wharton School, University of Pennsylvania**
 
 
