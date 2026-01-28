@@ -9,8 +9,11 @@ redirect_from:
 
 ## Martin J. Conyon
 **Trustee Professor of Economics, Bentley University**  
+
 **Otto Mønsted Professorship, Copenhagen Business School**  
+
 **Senior Fellow, Wharton School, University of Pennsylvania**  
+
 Email: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)  
 [Google Scholar](https://tinyurl.com/pa96dhe) • [SSRN Author Page](https://ssrn.com/author=222606) • [GitHub](https://github.com/martinconyon)
 
