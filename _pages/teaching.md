@@ -18,7 +18,7 @@ author_profile: true
 
 ## Undergraduate Courses
 
-### Microeconomics for Undergraduates
+### [Microeconomics for Undergraduates](/teaching/microeconomics)
 *Introductory and Intermediate microeconomic theory with applications to consumer behavior, firm theory, and market structures.*
 
 ## Teaching Philosophy
