@@ -8,11 +8,9 @@ redirect_from:
 ---
 
 ## Martin J. Conyon
-**Trustee Professor of Economics, Bentley University**  
-
-**Otto Mønsted Visiting Professor, Copenhagen Business School**  
-
-**Senior Fellow, Wharton School, University of Pennsylvania**  
+University Trustee Professor of Economics, Bentley University  
+Otto Mønsted Visiting Professor, Copenhagen Business School  
+Senior Fellow, Wharton School, University of Pennsylvania  
 
 Email: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)  
 [Google Scholar](https://tinyurl.com/pa96dhe) • [SSRN Author Page](https://ssrn.com/author=222606) • [GitHub](https://github.com/martinconyon)
@@ -20,7 +18,7 @@ Email: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)
 ---
 
 ## Professional Profile
-Martin J. Conyon is Professor of Economics and Trustee Professor at Bentley University. He is also a Senior Fellow at the Wharton School, University of Pennsylvania, and Otto Mønsted Professor at Copenhagen Business School. His research focuses on political economy, corporate governance, and applied microeconometrics. He is listed among the top 2% of scientists globally, based on standardized citation metrics (Stanford/Ioannidis et al.), and is a Fellow of the Royal Society of Arts (FRSA).
+Martin J. Conyon is University Trustee Professor of Economics at Bentley University. He is also a Senior Fellow at the Wharton School, University of Pennsylvania, and Otto Mønsted Visiting Professor at Copenhagen Business School. His research focuses on political economy, corporate governance, and applied microeconometrics. He is listed among the top 2% of scientists globally, based on standardized citation metrics (Stanford/Ioannidis et al.), and is a Fellow of the Royal Society of Arts (FRSA).
 
 ---
 
@@ -33,7 +31,7 @@ Martin J. Conyon is Professor of Economics and Trustee Professor at Bentley Univ
 
 ## Academic Positions
 **2015 – Present**  
-**Trustee Professor**, Bentley University, USA
+**University Trustee Professor of Economics**, Bentley University, USA
 
 **2026 – Present**  
 **Otto Mønsted Visiting Professor**, Copenhagen Business School, Denmark

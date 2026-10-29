@@ -7,15 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-**Professor of Economics, Bentley University**
-
-**Otto Mønsted Professor, Copenhagen Business School**
-
-**Senior Fellow, Wharton School, University of Pennsylvania**
+University Trustee Professor of Economics, Bentley University  
+Otto Mønsted Visiting Professor, Copenhagen Business School  
+Senior Fellow, Wharton School, University of Pennsylvania
 
 
 ## About
-Martin Conyon is a Trustee Professor of Economics at Bentley University and a Senior Fellow at the Wharton School, University of Pennsylvania. His research interests are in political economy and applied econometrics.
+Martin Conyon is University Trustee Professor of Economics at Bentley University and a Senior Fellow at the Wharton School, University of Pennsylvania. His research interests are in political economy and applied econometrics.
 
 His work is widely cited; his current Google Scholar h-index is 50, and he has been listed among the world’s top 2% of scientists in the standardized Stanford/Ioannidis database. He is a Fellow of the Royal Society of Arts.
 
