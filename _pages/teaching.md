@@ -5,8 +5,8 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Current Status
-**On Academic Leave: 2025–2026 Academic Year**
+## Current Teaching
+**EC111 Principles of Microeconomics**, Bentley University, Fall 2026: [practice questions and Essentials](/teaching/ec111/)
 
 ## PhD-Level Courses
 
@@ -21,9 +21,7 @@ author_profile: true
 ### Microeconomics for Undergraduates
 *Introductory and Intermediate microeconomic theory with applications to consumer behavior, firm theory, and market structures.*
 
-**EC111 Principles of Microeconomics (Bentley, Fall 2026):** [practice questions and Essentials](/teaching/ec111/)
-
 ## Teaching Philosophy
 My teaching approach emphasizes the connection between economic theory and real-world applications, preparing students for both academic research and professional careers.
 
-*Last updated: September 2025*
+*Last updated: October 2026*
