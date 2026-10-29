@@ -21,6 +21,8 @@ author_profile: true
 ### Microeconomics for Undergraduates
 *Introductory and Intermediate microeconomic theory with applications to consumer behavior, firm theory, and market structures.*
 
+**EC111 Principles of Microeconomics (Bentley, Fall 2026):** [practice questions and Essentials](/teaching/ec111/)
+
 ## Teaching Philosophy
 My teaching approach emphasizes the connection between economic theory and real-world applications, preparing students for both academic research and professional careers.
 

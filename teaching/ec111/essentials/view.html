@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>EC 111 Essentials</title>
+<style>
+:root{--blue:#4866C7;--ink:#1E2430;--muted:#6A7280;--line:#D5DAE6}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:18px/1.55 "Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+.top a{color:var(--blue);text-decoration:none}
+h1{font-size:1.8rem;margin:16px 0 4px}
+.sub{color:var(--muted);margin:0 0 24px}
+a.card{display:block;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-left:6px solid var(--blue);border-radius:6px;padding:14px 18px;margin:12px 0}
+a.card:hover{background:#F2F4F8}
+a.card b{color:var(--blue);font-size:1.1rem}
+a.card span{display:block;color:var(--muted);font-size:.95rem;margin-top:2px}
+main{max-width:900px}
+h1{font-size:1.4rem}
+.bar{display:flex;gap:18px;flex-wrap:wrap;margin:6px 0 16px}
+.bar a{color:var(--blue);text-decoration:none}
+#pages canvas{display:block;width:100%;height:auto;border:1px solid var(--line);margin:0 0 14px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+#msg{color:var(--muted)}
+</style></head>
+<body><main>
+<div class="top"><a href="./">&larr; Essentials</a></div>
+<h1 id="t">Essentials</h1>
+<div class="bar"><a id="dl" href="#" download>Download PDF</a></div>
+<p id="msg">Loading…</p>
+<div id="pages"></div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+const TITLES = {"ch04_supply_demand.pdf": "Chapter 4: The Market Forces of Supply and Demand", "ch05_elasticity.pdf": "Chapter 5: Elasticity and Its Application", "ch06_policies.pdf": "Chapter 6: Supply, Demand, and Government Policies", "ch07_welfare.pdf": "Chapter 7: Consumers, Producers, and the Efficiency of Markets", "ch10_externalities.pdf": "Chapter 10: Externalities", "ch11_public_goods.pdf": "Chapter 11: Public Goods and Common Resources", "ch14_costs.pdf": "Chapter 14: The Costs of Production", "ch15_perfect_competition.pdf": "Chapter 15: Firms in Competitive Markets", "ch16_monopoly.pdf": "Chapter 16: Monopoly", "ch17_monopolistic_competition.pdf": "Chapter 17: Monopolistic Competition", "ch18_oligopoly.pdf": "Chapter 18: Oligopoly"};
+const f = new URLSearchParams(location.search).get("f") || "";
+const msg = document.getElementById("msg");
+if (!(f in TITLES)) { msg.textContent = "No such file."; }
+else {
+  document.getElementById("t").textContent = TITLES[f];
+  document.title = TITLES[f] + " · EC 111 Essentials";
+  const dl = document.getElementById("dl"); dl.href = f;
+  try {
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    pdfjsLib.getDocument(f).promise.then(async pdf => {
+      msg.remove();
+      const box = document.getElementById("pages");
+      const scale = Math.min(2.5, Math.max(1.5, (window.devicePixelRatio || 1) * box.clientWidth / 612));
+      for (let i = 1; i <= pdf.numPages; i++) {
+        const pg = await pdf.getPage(i), vp = pg.getViewport({scale});
+        const c = document.createElement("canvas"); c.width = vp.width; c.height = vp.height;
+        box.appendChild(c);
+        await pg.render({canvasContext: c.getContext("2d"), viewport: vp}).promise;
+      }
+    }).catch(() => { msg.innerHTML = 'The page could not display this file. <a href="' + f + '">Open the PDF</a>.'; });
+  } catch (e) { msg.innerHTML = 'The page could not display this file. <a href="' + f + '">Open the PDF</a>.'; }
+}
+</script>
+</body></html>
