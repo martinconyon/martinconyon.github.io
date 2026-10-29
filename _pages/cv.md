@@ -10,7 +10,7 @@ redirect_from:
 ## Martin J. Conyon
 **Trustee Professor of Economics, Bentley University**  
 
-**Otto Mønsted Professorship, Copenhagen Business School**  
+**Otto Mønsted Visiting Professor, Copenhagen Business School**  
 
 **Senior Fellow, Wharton School, University of Pennsylvania**  
 
@@ -20,7 +20,7 @@ Email: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)
 ---
 
 ## Professional Profile
-Martin J. Conyon is Professor of Economics and Trustee Professor at Bentley University. He is also a Senior Fellow at the Wharton School, University of Pennsylvania. His research focuses on political economy, corporate governance, and applied microeconometrics. He is listed among the top 2% of scientists globally, based on standardized citation metrics (Stanford/Ioannidis et al.), and is a Fellow of the Royal Society of Arts (FRSA).
+Martin J. Conyon is Professor of Economics and Trustee Professor at Bentley University. He is also a Senior Fellow at the Wharton School, University of Pennsylvania, and Otto Mønsted Professor at Copenhagen Business School. His research focuses on political economy, corporate governance, and applied microeconometrics. He is listed among the top 2% of scientists globally, based on standardized citation metrics (Stanford/Ioannidis et al.), and is a Fellow of the Royal Society of Arts (FRSA).
 
 ---
 
@@ -34,6 +34,9 @@ Martin J. Conyon is Professor of Economics and Trustee Professor at Bentley Univ
 ## Academic Positions
 **2015 – Present**  
 **Trustee Professor**, Bentley University, USA
+
+**2026 – Present**  
+**Otto Mønsted Visiting Professor**, Copenhagen Business School, Denmark
 
 **2000 – Present**  
 **Senior Fellow**, Center for Human Resources, The Wharton School, University of Pennsylvania, USA
@@ -65,11 +68,11 @@ Martin J. Conyon is Professor of Economics and Trustee Professor at Bentley Univ
 ---
 
 ## Research Impact
-- **Stanford University Rankings (2024)**: Listed among the world's top 2% of scientists based on standardized citation metrics
-- **Google Scholar (2025)**: Total citations: 14,969; h-index: 51; i10-index: 90
-- **Research.com (2025)**: 
-  - Business and Management: Global Rank 658; U.S. Rank 287
-  - Economics and Finance: Global Rank 913; U.S. Rank 553
+- **Stanford University Rankings (2025 edition)**: Listed among the world's top 2% of scientists based on standardized citation metrics and authorship roles (Ioannidis et al.)
+- **Google Scholar (October 2026)**: Total citations: 15,642 (4,025 since 2021); h-index: 50 (30 since 2021); i10-index: 99 (51 since 2021)
+- **Research.com (August 2026)**:
+  - Business and Management: D-index 52; World Rank 873 (current: 813); U.S. Rank 375 (current: 343); Publications 162; Citations 12,432
+  - Economics and Finance: D-index 53; World Rank 1,183 (current: 1,053); U.S. Rank 715 (current: 620); Publications 168; Citations 12,504
 - **SSRN (2024)**: Total downloads: 13,949; top 10% of authors by downloads
 
 ---
@@ -82,4 +85,4 @@ Waltham, MA 02452, USA
 **Phone**: +1 (781) 891-2000  
 **Email**: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)
 
-*Last updated: September 2025*
+*Last updated: October 2026*
