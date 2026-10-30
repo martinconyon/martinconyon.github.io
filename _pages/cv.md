@@ -13,7 +13,7 @@ Otto Mønsted Visiting Professor, Copenhagen Business School
 Senior Fellow, Wharton School, University of Pennsylvania  
 
 Email: [mconyon@bentley.edu](mailto:mconyon@bentley.edu)  
-[Google Scholar](https://tinyurl.com/pa96dhe) • [SSRN Author Page](https://ssrn.com/author=222606) • [GitHub](https://github.com/martinconyon)
+[Google Scholar](https://tinyurl.com/pa96dhe) • [SSRN Author Page](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6221597) • [GitHub](https://github.com/martinconyon)
 
 ---
 
