@@ -4,8 +4,8 @@
 <meta name="robots" content="noindex, nofollow">
 <title>EC 111 Practice Questions</title>
 <style>
-:root{--blue:#52adc8;--ink:#494e52;--muted:#6A7280;--panel:#EEF1FA;--line:#D5DAE6;--good:#2E7D5B;--bad:#B3323C;--bg:#ffffff}
-*{box-sizing:border-box}.masthead{background:#fff;border-bottom:1px solid #f2f3f3}.masthead div{max-width:900px;margin:0 auto;padding:.5em 1em;display:flex;flex-wrap:wrap;align-items:center;gap:.25em 1.5em}.masthead a{color:#494e52;text-decoration:none;font-size:16px}.masthead a:hover{color:#5b6166}.masthead a.name{font-weight:700;margin-right:.5em}a:hover{color:#235f6e}button.go:hover{background:#235f6e;border-color:#235f6e}
+:root{--blue:#3d5a80;--ink:#494e52;--muted:#6A7280;--panel:#EEF1FA;--line:#D5DAE6;--good:#2E7D5B;--bad:#B3323C;--bg:#ffffff}
+*{box-sizing:border-box}.masthead{background:#fff;border-bottom:1px solid #f2f3f3}.masthead div{max-width:900px;margin:0 auto;padding:.5em 1em;display:flex;flex-wrap:wrap;align-items:center;gap:.25em 1.5em}.masthead a{color:#494e52;text-decoration:none;font-size:16px}.masthead a:hover{color:#5b6166}.masthead a.name{font-weight:700;margin-right:.5em}a:hover{color:#2a3f5a}button.go:hover{background:#2a3f5a;border-color:#2a3f5a}
 body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.55 -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}
 main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
 .top{max-width:760px;margin:0 auto;padding:16px 16px 0;font-size:.95rem}
@@ -71,9 +71,9 @@ function graph(g){
   for (const v of (g.yticks || [])) s += `<line x1="${L - 5}" y1="${Y(v)}" x2="${L}" y2="${Y(v)}" stroke="#1E2430"/><text x="${L - 8}" y="${Y(v) + 4}" text-anchor="end" font-size="13">${v}</text>`;
   for (const d of (g.guides || [])) s += `<polyline points="${L},${Y(d.y)} ${X(d.x)},${Y(d.y)} ${X(d.x)},${B}" fill="none" stroke="#6A7280" stroke-dasharray="4 4"/>`;
   for (const ln of (g.lines || [])){
-    s += `<polyline points="${ln.pts.map(p => X(p[0]) + "," + Y(p[1])).join(" ")}" fill="none" stroke="#52adc8" stroke-width="2.5" ${ln.dash ? 'stroke-dasharray="7 5"' : ""}/>`;
+    s += `<polyline points="${ln.pts.map(p => X(p[0]) + "," + Y(p[1])).join(" ")}" fill="none" stroke="#3d5a80" stroke-width="2.5" ${ln.dash ? 'stroke-dasharray="7 5"' : ""}/>`;
     const e = ln.at || ln.pts[ln.pts.length - 1];
-    if (ln.label) s += `<text x="${X(e[0]) + 6}" y="${Y(e[1]) - 6}" font-size="14" fill="#52adc8">${esc(ln.label)}</text>`;
+    if (ln.label) s += `<text x="${X(e[0]) + 6}" y="${Y(e[1]) - 6}" font-size="14" fill="#3d5a80">${esc(ln.label)}</text>`;
   }
   for (const d of (g.dots || [])) s += `<circle cx="${X(d.x)}" cy="${Y(d.y)}" r="4" fill="#1E2430"/>` + (d.label ? `<text x="${X(d.x) + 7}" y="${Y(d.y) - 7}" font-size="14" font-weight="bold">${esc(d.label)}</text>` : "");
   s += `<line x1="${L}" y1="${B}" x2="${R}" y2="${B}" stroke="#1E2430" stroke-width="1.5"/><line x1="${L}" y1="${T}" x2="${L}" y2="${B}" stroke="#1E2430" stroke-width="1.5"/>`;
