@@ -40,6 +40,30 @@ th{background:var(--panel)}
 a{color:var(--blue)}
 .foot{color:var(--muted);font-size:.85rem;margin-top:32px}
 svg.g{display:block;width:100%;max-width:560px;height:auto;margin:0 0 14px;font-family:inherit}
+.nav{flex-wrap:wrap}.nav button{flex:1 1 140px}
+body.wide main,body.wide .top{max-width:900px}body.wide main{padding-bottom:200px}
+.links{display:flex;gap:16px;margin:0 0 10px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{position:relative;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:6px;padding:12px 14px;cursor:pointer;background:#fff}
+.card input{position:absolute;opacity:0;pointer-events:none}
+.card:focus-within{outline:2px solid var(--blue);outline-offset:2px}
+.card.sel{border-color:var(--ink);background:#f2f3f3;box-shadow:0 0 0 1px var(--ink)}
+.card .t{display:block;flex:1}
+.card small{display:block;color:var(--muted);font-size:.85rem;margin-top:6px}
+.pbar{display:block;height:4px;background:var(--line);border-radius:2px;margin-top:8px;overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--blue)}
+.startbar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);padding:10px 16px;z-index:10}
+.startbar .in{max-width:868px;margin:0 auto;display:grid;grid-template-columns:1fr auto;grid-template-areas:"lv go" "rs go";gap:6px 16px;align-items:center}
+.startbar .seg{grid-area:lv}.startbar .seg button{padding:6px 10px}
+.startbar .go{grid-area:go;width:auto;min-width:220px;margin:0}
+.startbar .rs{grid-area:rs;font-size:.85rem;color:var(--muted)}
+.rs button{padding:2px 10px;font-size:.85rem}
+button.go:disabled:hover{background:var(--blue);border-color:var(--blue)}
+.big{font-size:3.2rem;font-weight:bold;line-height:1.1;margin:8px 0 4px}
+.lead{margin:0 0 8px}
+@media(max-width:820px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){.grid{grid-template-columns:1fr}}
+@media(max-width:620px){.startbar .in{grid-template-columns:1fr;grid-template-areas:"lv" "go" "rs"}.startbar .go{width:100%;min-width:0}body.wide main{padding-bottom:210px}}
 </style></head>
 <body><header class="masthead"><div><a class="name" href="https://mconyon.com/">Martin J. Conyon</a><a href="https://mconyon.com/publications/">Publications</a><a href="https://mconyon.com/teaching/">Teaching</a><a href="https://mconyon.com/cv/">CV</a></div></header><div class="top"><a href="../">&larr; EC 111 home</a></div><main id="app"></main>
 <script>
@@ -52,7 +76,7 @@ const store = {
 let progress = store.get();
 let pick = {chapters: new Set(), level: "All"};
 const RANK = {Easy: 0, Moderate: 1, Challenging: 2};
-let run = null;
+let run = null, resetAsk = false;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 function graph(g){
@@ -84,31 +108,51 @@ function graph(g){
 function chosen(){
   const qs = [];
   for (const c of CHAPTERS) if (pick.chapters.has(c.chapter))
-    for (const q of c.questions) if (pick.level === "All" || q.difficulty === pick.level) qs.push({...q, chapter: c.chapter, name: c.label ? "Chapters " + c.label : "Chapter " + c.chapter});
+    for (const q of c.questions) if (pick.level === "All" || q.difficulty === pick.level) qs.push({...q, chapter: c.chapter, ch: c.label || c.chapter, name: c.label ? "Chapters " + c.label : "Chapter " + c.chapter});
   return qs.sort((a,b) => a.chapter - b.chapter || (RANK[a.difficulty] - RANK[b.difficulty]));
 }
 function home(){
-  run = null;
-  let h = `<h1>EC 111 Practice Questions</h1><p class="sub">Principles of Microeconomics. Choose the chapters and the level. Wrong answers come with an explanation; on multiple choice you get a second try first.</p><h2>Chapters</h2>`;
+  run = null; resetAsk = false;
+  document.body.classList.add("wide");
+  let h = `<h1>EC 111 Practice Questions</h1><p class="sub">Principles of Microeconomics. Choose the chapters and the level. Wrong answers come with an explanation; on multiple choice you get a second try first.</p><h2>Chapters</h2><p class="links"><a href="#" id="all">Select all</a><a href="#" id="none">Clear</a></p><div class="grid">`;
   for (const c of CHAPTERS){
+    const n = c.questions.length;
     const tried = c.questions.filter(q => progress[q.key]).length;
     const first = c.questions.filter(q => progress[q.key] === "first").length;
-    h += `<label class="row"><input type="checkbox" data-ch="${c.chapter}" ${pick.chapters.has(c.chapter) ? "checked" : ""}> <span><b>${c.label ? "Chapters " + esc(c.label) : "Chapter " + c.chapter}</b> ${esc(c.title)}</span><small>${tried} of ${c.questions.length} tried · ${first} right first time</small></label>`;
+    h += `<label class="card"><input type="checkbox" data-ch="${c.chapter}" ${pick.chapters.has(c.chapter) ? "checked" : ""}><b>${c.label ? "Chapters " + esc(c.label) : "Chapter " + c.chapter}</b><span class="t">${esc(c.title)}</span><small>${tried} of ${n} tried · ${first} right first time</small><span class="pbar"><i style="width:${Math.round(100 * tried / n)}%"></i></span></label>`;
   }
-  h += `<h2>Level</h2><div class="seg">` + ["Easy","Moderate","Challenging","All"].map(l => `<button data-lv="${l}" class="${pick.level === l ? "on" : ""}">${l}</button>`).join("") + `</div>`;
-  const n = chosen().length;
-  h += `<button class="go" id="start" ${n ? "" : "disabled"}>${n ? `Start · ${n} question${n === 1 ? "" : "s"}` : "Choose a chapter"}</button>`;
-  h += `<p class="foot">Progress is saved in this browser only. <a href="#" id="reset">Clear my progress</a> · <a href="../">EC 111 home</a></p>`;
+  h += `</div><p class="foot">Progress is saved in this browser only. <a href="../">EC 111 home</a></p>`;
+  h += `<div class="startbar"><div class="in"><div class="seg">` + ["Easy","Moderate","Challenging","All"].map(l => `<button data-lv="${l}">${l}</button>`).join("") + `</div><button class="go" id="start"></button><div class="rs" id="rs"></div></div></div>`;
   app.innerHTML = h;
-  app.querySelectorAll("[data-ch]").forEach(b => b.onchange = () => { const ch = +b.dataset.ch; b.checked ? pick.chapters.add(ch) : pick.chapters.delete(ch); home(); });
-  app.querySelectorAll("[data-lv]").forEach(b => b.onclick = () => { pick.level = b.dataset.lv; home(); });
-  document.getElementById("start").onclick = () => { run = {qs: chosen(), i: 0, firstRight: 0}; show(); };
-  document.getElementById("reset").onclick = e => { e.preventDefault(); progress = {}; store.set(progress); home(); };
+  app.querySelectorAll("[data-ch]").forEach(b => b.onchange = () => { const ch = +b.dataset.ch; b.checked ? pick.chapters.add(ch) : pick.chapters.delete(ch); upd(); });
+  app.querySelectorAll("[data-lv]").forEach(b => b.onclick = () => { pick.level = b.dataset.lv; upd(); });
+  document.getElementById("all").onclick = e => { e.preventDefault(); CHAPTERS.forEach(c => pick.chapters.add(c.chapter)); app.querySelectorAll("[data-ch]").forEach(b => b.checked = true); upd(); };
+  document.getElementById("none").onclick = e => { e.preventDefault(); pick.chapters.clear(); app.querySelectorAll("[data-ch]").forEach(b => b.checked = false); upd(); };
+  document.getElementById("start").onclick = () => { run = {qs: chosen(), i: 0, firstRight: 0, answers: [], parent: null}; show(); };
+  upd();
+}
+function upd(){
+  const n = chosen().length;
+  const s = document.getElementById("start");
+  s.disabled = !n;
+  s.textContent = n ? `Start · ${n} question${n === 1 ? "" : "s"}` : "Choose a chapter";
+  app.querySelectorAll(".card").forEach(l => l.classList.toggle("sel", l.querySelector("input").checked));
+  app.querySelectorAll("[data-lv]").forEach(b => b.classList.toggle("on", b.dataset.lv === pick.level));
+  const rs = document.getElementById("rs");
+  if (resetAsk){
+    rs.innerHTML = `Reset my progress? <button id="ry">Reset</button> <button id="rn">Cancel</button>`;
+    document.getElementById("ry").onclick = () => { progress = {}; store.set(progress); home(); };
+    document.getElementById("rn").onclick = () => { resetAsk = false; upd(); };
+  } else {
+    rs.innerHTML = `<a href="#" id="reset">Reset my progress</a>`;
+    document.getElementById("reset").onclick = e => { e.preventDefault(); resetAsk = true; upd(); };
+  }
 }
 function show(){
+  document.body.classList.remove("wide");
   const q = run.qs[run.i];
   const opts = q.type === "mc" ? q.options : ["True","False"];
-  let h = `<div class="meta"><span>${esc(q.name)} · ${q.difficulty} · ${q.type === "mc" ? "Multiple choice" : "True or false"}</span><span>${run.i + 1} of ${run.qs.length}</span></div>`;
+  let h = `<div class="meta"><span>${esc(q.name)} · ${q.difficulty} · ${q.type === "mc" ? "Multiple choice" : "True or false"} · ${esc(q.topic)}</span><span>${run.i + 1} of ${run.qs.length}</span></div>`;
   h += `<div class="stem">${esc(q.stem)}</div>`;
   if (q.graph) h += graph(q.graph);
   if (q.table){
@@ -131,12 +175,14 @@ function show(){
       if (k !== right) b.classList.add("wrong");
       const first = k === right && tries === 1;
       if (first) run.firstRight++;
+      run.answers.push({q, first});
       if (!progress[q.key] || first) progress[q.key] = first ? "first" : "tried";
       store.set(progress);
       const last = run.i === run.qs.length - 1;
-      fb.innerHTML = `<div class="msg ${k === right ? "good" : "bad"}">${k === right ? "Correct." : "Not correct. The answer is " + (q.type === "mc" ? "abcdefgh"[right] + "." : opts[right] + ".")}</div>${k !== right && q.reasons && q.reasons[k] ? `<div class="why">${esc(q.reasons[k])}</div>` : ""}<div class="why">${esc(q.why)}</div><div class="nav"><button id="quit">Back to chapters</button><button class="on" id="next">${last ? "See my score" : "Next question"}</button></div>`;
+      fb.innerHTML = `<div class="msg ${k === right ? "good" : "bad"}">${k === right ? "Correct." : "Not correct. The answer is " + (q.type === "mc" ? "abcdefgh"[right] + "." : opts[right] + ".")}</div>${k !== right && q.reasons && q.reasons[k] ? `<div class="why">${esc(q.reasons[k])}</div>` : ""}<div class="why">${esc(q.why)}</div><div class="nav"><button id="quit">Back to chapters</button><button id="end">End session</button><button class="on" id="next">${last ? "See my score" : "Next question"}</button></div>`;
       document.getElementById("quit").onclick = home;
-      document.getElementById("next").onclick = () => { if (last) done(); else { run.i++; show(); } };
+      document.getElementById("end").onclick = finish;
+      document.getElementById("next").onclick = () => { if (last) finish(); else { run.i++; show(); } };
     } else {
       b.classList.add("wrong"); b.disabled = true;
       const why = q.reasons && q.reasons[k] ? `<div class="why">${esc(q.reasons[k])}</div>` : "";
@@ -144,10 +190,24 @@ function show(){
     }
   });
 }
-function done(){
-  app.innerHTML = `<h1>Finished</h1><p class="score">${run.firstRight} of ${run.qs.length} right first time</p><div class="nav"><button id="again">Same set again</button><button class="on" id="menu">Back to chapters</button></div>`;
-  document.getElementById("again").onclick = () => { run.i = 0; run.firstRight = 0; show(); };
+function finish(){
+  if (run.parent) run = run.parent;
+  results();
+}
+function results(){
+  document.body.classList.remove("wide");
+  const A = run.answers, y = A.length, x = A.filter(a => a.first).length;
+  const missed = A.filter(a => !a.first).map(a => a.q);
+  let h = `<div class="big">${x} / ${y}</div><p class="lead">right the first time, out of ${y} answered.</p>`;
+  if (missed.length){
+    h += `<h2>Questions you missed</h2>` + missed.map((q, k) => `<button class="opt" data-m="${k}">Ch ${esc(q.ch)} · ${esc(q.topic)}</button>`).join("");
+    h += `<div class="nav"><button id="menu">Back to chapters</button><button class="on" id="retry">Retry the ones I missed</button></div>`;
+  } else h += `<div class="nav"><button class="on" id="menu">Back to chapters</button></div>`;
+  app.innerHTML = h; window.scrollTo(0, 0);
   document.getElementById("menu").onclick = home;
+  app.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { run = {qs: [missed[+b.dataset.m]], i: 0, firstRight: 0, answers: [], parent: run}; show(); });
+  const rt = document.getElementById("retry");
+  if (rt) rt.onclick = () => { run = {qs: missed, i: 0, firstRight: 0, answers: [], parent: null}; show(); };
 }
 home();
 </script></body></html>
