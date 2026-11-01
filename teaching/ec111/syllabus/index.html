@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Syllabus · EC 111</title>
+<style>
+:root{--blue:#3d5a80;--ink:#494e52;--muted:#6A7280;--line:#D5DAE6}
+*{box-sizing:border-box}.masthead{background:#fff;border-bottom:1px solid #f2f3f3}.masthead div{max-width:900px;margin:0 auto;padding:.5em 1em;display:flex;flex-wrap:wrap;align-items:center;gap:.25em 1.5em}.masthead a{color:#494e52;text-decoration:none;font-size:16px}.masthead a:hover{color:#5b6166}.masthead a.name{font-weight:700;margin-right:.5em}a:hover{color:#2a3f5a}button.go:hover{background:#2a3f5a;border-color:#2a3f5a}
+body{margin:0;background:#fff;color:var(--ink);font:18px/1.55 -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+.top a{color:var(--blue);text-decoration:none}
+h1{font-size:1.8rem;margin:16px 0 4px}
+.sub{color:var(--muted);margin:0 0 24px}
+a.card{display:block;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-left:6px solid var(--blue);border-radius:6px;padding:14px 18px;margin:12px 0}
+a.card:hover{background:#F2F4F8}
+a.card b{color:var(--blue);font-size:1.1rem}
+a.card span{display:block;color:var(--muted);font-size:.95rem;margin-top:2px}
+main{max-width:900px}
+h1{font-size:1.4rem}
+.bar{display:flex;gap:18px;flex-wrap:wrap;margin:6px 0 16px}
+.bar a{color:var(--blue);text-decoration:none}
+#pages canvas{display:block;width:100%;height:auto;border:1px solid var(--line);margin:0 0 14px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+#msg{color:var(--muted)}
+</style></head>
+<body><header class="masthead"><div><a class="name" href="https://mconyon.com/">Martin J. Conyon</a><a href="https://mconyon.com/publications/">Publications</a><a href="https://mconyon.com/teaching/">Teaching</a><a href="https://mconyon.com/cv/">CV</a></div></header><main>
+<div class="top"><a href="../">&larr; EC 111 home</a></div>
+<h1 id="t">Syllabus</h1>
+<div class="bar"><a id="dl" href="EC111_Syllabus_Fall2026.pdf" download>Download PDF</a></div>
+<p id="msg">Loading…</p>
+<div id="pages"></div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+const f = "EC111_Syllabus_Fall2026.pdf";
+const msg = document.getElementById("msg");
+{
+  try {
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+    pdfjsLib.getDocument(f).promise.then(async pdf => {
+      msg.remove();
+      const box = document.getElementById("pages");
+      const scale = Math.min(2.5, Math.max(1.5, (window.devicePixelRatio || 1) * box.clientWidth / 612));
+      for (let i = 1; i <= pdf.numPages; i++) {
+        const pg = await pdf.getPage(i), vp = pg.getViewport({scale});
+        const c = document.createElement("canvas"); c.width = vp.width; c.height = vp.height;
+        box.appendChild(c);
+        await pg.render({canvasContext: c.getContext("2d"), viewport: vp}).promise;
+      }
+    }).catch(() => { msg.innerHTML = 'The page could not display this file. <a href="' + f + '">Open the PDF</a>.'; });
+  } catch (e) { msg.innerHTML = 'The page could not display this file. <a href="' + f + '">Open the PDF</a>.'; }
+}
+</script>
+</body></html>
