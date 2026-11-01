@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Current Teaching
-**EC111 Principles of Microeconomics**, Bentley University, Fall 2026: [practice questions and Essentials](/teaching/ec111/)
+**EC111 Principles of Microeconomics**, Bentley University, Fall 2026: [course page](/teaching/ec111/): syllabus, slides, practice questions and Essentials.
 
 ## PhD-Level Courses
 
