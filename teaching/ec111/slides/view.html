@@ -15,9 +15,6 @@ a.card{display:block;text-decoration:none;color:var(--ink);border:1px solid var(
 a.card:hover{background:#F2F4F8}
 a.card b{color:var(--blue);font-size:1.1rem}
 a.card span{display:block;color:var(--muted);font-size:.95rem;margin-top:2px}
-div.todo{border:1px solid var(--line);border-left:6px solid var(--line);border-radius:6px;padding:14px 18px;margin:12px 0;color:var(--muted)}
-div.todo b{font-size:1.1rem}
-div.todo span{display:block;font-size:.95rem;margin-top:2px}
 main{max-width:900px}
 h1{font-size:1.4rem}
 .bar{display:flex;gap:18px;flex-wrap:wrap;margin:6px 0 16px}
@@ -35,7 +32,7 @@ h1{font-size:1.4rem}
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
-const TITLES = {"ch14_costs.pdf": "Chapter 14: The Costs of Production"};
+const TITLES = {"ch14_costs.pdf": "Chapter 14: The Costs of Production", "ch22_consumer_choice.pdf": "Chapter 22: The Theory of Consumer Choice"};
 const f = new URLSearchParams(location.search).get("f") || "";
 const msg = document.getElementById("msg");
 if (!(f in TITLES)) { msg.textContent = "No such file."; }
