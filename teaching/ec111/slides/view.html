@@ -39,10 +39,10 @@ if (!(f in TITLES)) { msg.textContent = "No such file."; }
 else {
   document.getElementById("t").textContent = TITLES[f];
   document.title = TITLES[f] + " · EC 111 Slides";
-  const dl = document.getElementById("dl"); dl.href = f;
+  const dl = document.getElementById("dl"); dl.href = f + String.fromCharCode(63,118,61) + Date.now();
   try {
     pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
-    pdfjsLib.getDocument(f).promise.then(async pdf => {
+    pdfjsLib.getDocument(f + String.fromCharCode(63,118,61) + Date.now()).promise.then(async pdf => {
       msg.remove();
       const box = document.getElementById("pages");
       const first = await pdf.getPage(1), v1 = first.getViewport({scale: 1});

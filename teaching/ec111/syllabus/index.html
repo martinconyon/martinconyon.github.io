@@ -36,7 +36,7 @@ const msg = document.getElementById("msg");
 {
   try {
     pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
-    pdfjsLib.getDocument(f).promise.then(async pdf => {
+    pdfjsLib.getDocument(f + String.fromCharCode(63,118,61) + Date.now()).promise.then(async pdf => {
       msg.remove();
       const box = document.getElementById("pages");
       const scale = Math.min(2.5, Math.max(1.5, (window.devicePixelRatio || 1) * box.clientWidth / 612));
